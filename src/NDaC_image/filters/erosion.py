@@ -1,11 +1,3 @@
-################################################################################               
-# Name: Yu-Hsuan Lin - 09/19/2021                                              #
-################################################################################
-# Grayscale image shape: (num_rows, num_pixels_per_row)                        #
-# Grayscale image:                                                             #
-#   numpy.array([ [0, 1, 2...], [intensities], [intensities] ])                #
-################################################################################
-
 # Importing necessary tools for the further operations.
 import numpy as np
 
