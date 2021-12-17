@@ -1,13 +1,7 @@
 # Nuclei-Detection-And-Counting
 
 Author(s):
-Tikhon Pachin, College of Engineering
-Annapoorna Prabhu, College of Engineering
-Yu-Hsuan Lin, College of Engineering
-Aubrey Gatewood, College of Engineering
-Nikhil Manglore, College of Science
-Niharika Narra, College of Engineering
-Lydia Hanna, College of Engineering
+Tikhon Pachin, Nikhil Manglore, Annapoorna Prabhu, Yu-Hsuan Lin, Aubrey Gatewood, Niharika Narra, Lydia Hanna
 
 Abstract:
 Nuclei segmentation on microscopy images has been a topic of interest for over 10 years. There are multiple
