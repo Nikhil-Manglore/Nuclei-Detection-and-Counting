@@ -1,6 +1,6 @@
 # Nuclei-Detection-And-Counting 
 --------------------------------------------------------------------------------------------------------------------------------------------
-This was a research project that I participated in during the Fall 2021 semester. My research was based around image processing techniques and implementations. This program utilizes mathematical morphology, pre-processing methods such as gaussian nlurring, and the idea of watershed segmentation in order to segment heavilyg clustered nuclei within images of cells.
+During my Fall 2021 semester I was an undergraduate student research under Purdue Universities Vertically Integrated Projects. My research was based around image processing techniques and implementations. This program utilizes mathematical morphology, pre-processing methods such as gaussian nlurring, and the idea of watershed segmentation in order to segment heavilyg clustered nuclei within images of cells.
 --------------------------------------------------------------------------------------------------------------------------------------------
 <br/>
 Author(s):<br/>
