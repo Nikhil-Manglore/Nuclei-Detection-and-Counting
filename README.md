@@ -4,7 +4,7 @@ During my Fall 2021 semester I was an undergraduate student researcher under Pur
 --------------------------------------------------------------------------------------------------------------------------------------------
 <br/>
 Author(s):<br/>
-Tikhon Pachin, Nikhil Manglore, Annapoorna Prabhu, Yu-Hsuan Lin, Aubrey Gatewood, Niharika Narra, Lydia Hanna
+Tikhon Pachin, Nikhil Manglore, Annapoorna Prabhu, Sheila Lin, Aubrey Gatewood, Niha Narra, Lydia Hanna
 <br/>
 <br/>
 Abstract: <br/>
