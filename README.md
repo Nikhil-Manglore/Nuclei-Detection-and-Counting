@@ -1,9 +1,9 @@
 # Nuclei-Detection-And-Counting
 
-Author(s):<br />
+Author(s):<br/>
 Tikhon Pachin, Nikhil Manglore, Annapoorna Prabhu, Yu-Hsuan Lin, Aubrey Gatewood, Niharika Narra, Lydia Hanna
-<br />
-Abstract: <br />
+<br/>
+Abstract: <br/>
 Nuclei segmentation on microscopy images has been a topic of interest for over 10 years. There are multiple
 different algorithms that have been developed to target the issue. This project focuses specifically on
 Watershed segmentation with some preliminary image processing to segment and count nuclei. Nuclei
@@ -18,11 +18,11 @@ Otsu’s thresholding. These filters are heavily employed for image noise reduct
 topographical image of the cells would be inaccurate.
 The project was split into proof of concept, algorithm altering and noise reduction. Proof of concept utilized
 some preexistent tools to segment the nuclei. Algorithm altering step implemented and adjusted the algorithm
-from scratch. <br />
+from scratch. <br/>
 The output of nuclei segmentation is an image that shows the borders between the cells and a number that
 corresponds to the number of cells in the image. This output is a preliminary processing method for further
 research that may be conducted on such images.
 
-Mentor(s):
-Edward Delp, College of Engineering, Electrical & Computer Engineering <br />
+Mentors: <br/>
+Edward Delp, College of Engineering, Electrical & Computer Engineering <br/>
 Carla Zoltowski, Purdue University
