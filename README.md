@@ -3,6 +3,7 @@
 Author(s):<br/>
 Tikhon Pachin, Nikhil Manglore, Annapoorna Prabhu, Yu-Hsuan Lin, Aubrey Gatewood, Niharika Narra, Lydia Hanna
 <br/>
+<br/>
 Abstract: <br/>
 Nuclei segmentation on microscopy images has been a topic of interest for over 10 years. There are multiple
 different algorithms that have been developed to target the issue. This project focuses specifically on
@@ -22,7 +23,8 @@ from scratch. <br/>
 The output of nuclei segmentation is an image that shows the borders between the cells and a number that
 corresponds to the number of cells in the image. This output is a preliminary processing method for further
 research that may be conducted on such images.
-
+<br/>
+<br/>
 Mentors: <br/>
 Edward Delp, College of Engineering, Electrical & Computer Engineering <br/>
 Carla Zoltowski, Purdue University
