@@ -1,5 +1,3 @@
-# Updated date: 09/13/2021 - Yu-Hsuan Lin
-# Built by Yu-Hsuan Lin and Nikhil Manglore
 import numpy as np
 
 # Get the probabilities of each grayscale value from 0 to 255
