@@ -1,7 +1,4 @@
 ################################################################################
-# File collaboration:                                                          #
-#   Yu-Hsuan Lin - 11/07/2021                                                  #
-################################################################################
 # Colored image shape: (num_rows, num_pixels_per_row, RGB == const 3)          #
 # Grayscale image shape: (num_rows, num_pixels_per_row)                        #
 # Colored image:                                                               #
