@@ -1,7 +1,4 @@
 ################################################################################
-# File collaboration:                                                          #
-#   Niharika Narra, Lydia Hanna                                                #
-################################################################################
 # Colored image shape: (num_rows, num_pixels_per_row, RGB == const 3)          #
 # Grayscale image shape: (num_rows, num_pixels_per_row)                        #
 # Colored image:                                                               #
