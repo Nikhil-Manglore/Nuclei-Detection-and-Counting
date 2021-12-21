@@ -1,7 +1,4 @@
 ################################################################################
-# File collaboration:                                                          #
-#   Tikhon Pachin                                                              #
-################################################################################
 # Colored image shape: (num_rows, num_pixels_per_row, RGB == const 3)          #
 # Grayscale image shape: (num_rows, num_pixels_per_row)                        #
 # Colored image:                                                               #
@@ -10,15 +7,14 @@
 #   numpy.array([ [0, 1, 2...], [intensities], [intensities] ])                #
 ################################################################################
 
-# Importing necessary tools for the further operations. Tikhon Pachin - 9/5/2021
+# Importing necessary tools for the further operations. 
 import numpy as np
 
-# From color to grayscale converter. Tikhon Pachin - 9/5/2021
+# From color to grayscale converter. 
 def to_grayscale(image):
     # Check if the input image is of correct shape. Processing wrong shape
     # may cause runtime errors. This is important because some data may already
     # be converted to grayscale and some may be corrupted.
-    # Tikhon Pachin - 9/5/2021
     if len(image.shape) != 3:
         if len(image.shape) == 2:
             return image
@@ -36,7 +32,6 @@ def to_grayscale(image):
     # The shape of the array is the number of rows of the colored image and
     # the number of pixels per each row. There is no need to make pixels into
     # their own arrays since there is only one component (intensity) per pixel.
-    # Tikhon Pachin - 9/5/2021
     gray_image = np.zeros((image.shape[0], image.shape[1]))
 
     # To convert a colored image into a grayscale image the following formulas
@@ -45,7 +40,7 @@ def to_grayscale(image):
     #   ITU-R Recommendation BT.601: Y = 0.299R + 0.587G + 0.114B
     # Conversion is complete through itereation of each row and each pixel of
     # each row. Refer to the header of this file to see colored image structure
-    # and grayscale image structure. Tikhon Pachin - 9/5/2021
+    # and grayscale image structure.
     for r, row in enumerate(image):
         for p, px in enumerate(row):
             gray_image[r][p] = 0.2126 * px[0] + 0.7152 * px[1] + 0.0722 * px[2]
@@ -54,5 +49,5 @@ def to_grayscale(image):
     # the computed values into their appropriate integer values. This is done
     # through rounding and type casting. The converted values are returned from
     # this function. See the structure of a grayscale image in the header of
-    # this file. Tikhon Pachin - 9/5/2021
+    # this file. 
     return np.round_(gray_image, decimals=0).astype(int)
