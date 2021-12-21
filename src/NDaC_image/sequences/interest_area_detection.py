@@ -23,7 +23,6 @@ def detect_area_of_interest(img, n_blur, n_dilation, v_exposure):
 
     # Dilated the thresholded image to cover surplus ground to make sure that
     # nothing important is missing from the area of interest.
-    # Tikhon Pachin - 10/16/2021
     dilated_image = img.get_dilated_image(np.copy(blur_otsu_img), n_dilation)
 
     # Increase the intensity of each pixel in the areas of interest, so that
