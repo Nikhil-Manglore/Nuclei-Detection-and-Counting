@@ -1,14 +1,10 @@
 ################################################################################
-# File collaboration:                                                          #
-#   Tikhon Pachin                                                              #
-################################################################################
 # Grayscale image shape: (num_rows, num_pixels_per_row)                        #
 # Grayscale image:                                                             #
 #   numpy.array([ [0, 1, 2...], [intensities], [intensities] ])                #
 ################################################################################
 
 # Importing necessary tools for the further operations.
-# Tikhon Pachin - 10/3/2021
 import numpy as np
 
 class Minimum:
