@@ -10,7 +10,7 @@
 # Importing necessary tools for the further operations.
 import numpy as np
 
-# Area of interest detector. Tikhon Pachin 10/16/2021
+# Area of interest detector. 
 # Note: img is ImageClass object.
 def detect_area_of_interest(img, n_blur, n_dilation, v_exposure):
     # Remove the noise on the image that prevents general detection of the area
