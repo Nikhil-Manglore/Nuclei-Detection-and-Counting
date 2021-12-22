@@ -11,8 +11,6 @@ def image_uploader(filename):
     RESOURCES_PATH = os.path.dirname(os.path.abspath(__file__))
     #gets current directory
     o = RESOURCES_PATH + "/resources/"
-    # Switched SourceImages to resources - standard nomenclature.
-    # Tikhon Pachin - 10/12/2021
 
     if os.path.exists(o + filename):
         file = o + filename
