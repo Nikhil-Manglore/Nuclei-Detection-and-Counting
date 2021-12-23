@@ -27,7 +27,6 @@ def chessboard_distance_transform(img):
 # is the chess transform.
 def determine_distance(img, r, p, px):
     # If the pixel is non-feature - the distance to the non-feature pixel is 0.
-    # Tikhon Pachin - 10/19/2021
     if px == 0:
         return 0
 
