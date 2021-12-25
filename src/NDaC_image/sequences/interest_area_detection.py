@@ -14,7 +14,7 @@ import numpy as np
 # Note: img is ImageClass object.
 def detect_area_of_interest(img, n_blur, n_dilation, v_exposure):
     # Remove the noise on the image that prevents general detection of the area
-    # of interest. Tikhon Pachin - 10/16/2021
+    # of interest. 
     blurred_image = img.get_gaussian_blur_image(np.copy(img.gray_img), n_blur)
 
     # Threshold the image after the noise removal.
