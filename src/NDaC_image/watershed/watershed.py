@@ -14,7 +14,6 @@ class Minimum:
         self.intensity = intensity
         self.connecting_pixels = []
 
-# Working 10/03/2021
 def get_watershed(img, n_dilation, mode=0):
     topographical_map = convert_image_to_topographical_map(img, 19, mode)
     cell_minima = detect_regional_minima(topographical_map, 19)
