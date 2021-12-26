@@ -1,3 +1,12 @@
+################################################################################
+# Colored image shape: (num_rows, num_pixels_per_row, RGB == const 3)          #
+# Grayscale image shape: (num_rows, num_pixels_per_row)                        #
+# Colored image:                                                               #
+#   numpy.array([ [[0, 255, 0], [RGB]], [[RGB], [RGB]], [[RGB], [RGB]] ])      #
+# Grayscale image:                                                             #
+#   numpy.array([ [0, 1, 2...], [intensities], [intensities] ])                #
+################################################################################
+
 import numpy as np
 
 # Get the probabilities of each grayscale value from 0 to 255
@@ -155,24 +164,3 @@ def imageChange(arrGray, result):
             else:
                 arrGray[i][j] = 255
     return arrGray
-
-# # Testing functions ----------- (uncomment to test) ---------------
-
-# # read and show image
-# img = cv2.imread("4.png")
-# plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-# plt.show()
-
-# # conver image to grayscale image
-# B, G, Ｒ = img[:,:,0], img[:,:,1], img[:,:,2]
-# arrGray = []
-# for i in range(len(B)):
-#     arrGray.append(0.2126 * R[i] + 0.7125 * G[i] + 0.0722 * B[i])
-# plt.imshow(arrGray,cmap="gray")
-# plt.show()
-
-# # Use functions
-# result = getThreshold_inter(arrGray)
-# arrGray = imageChange(arrGray,result)
-# plt.imshow(arrGray,cmap="gray")
-# plt.show()
