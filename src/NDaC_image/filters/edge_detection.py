@@ -1,4 +1,3 @@
-# Name: Lydia Hanna
 # edge detection
 import numpy as np 
 import math as m
