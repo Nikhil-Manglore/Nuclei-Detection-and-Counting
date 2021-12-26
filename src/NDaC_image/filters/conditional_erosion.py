@@ -1,6 +1,6 @@
 ################################################################################
-# File collaboration - 11/27/2021                                               #
-#   Nikhil Manglore, Aubrey Gatewood, Annapoorna Prabhu                        #
+# Added 11/27/2021                                                             #
+                                                                               #
 ################################################################################
 # Colored image shape: (num_rows, num_pixels_per_row, RGB == const 3)          #
 # Grayscale image shape: (num_rows, num_pixels_per_row)                        #
@@ -33,38 +33,13 @@ def conditional_erosion(image, coarse_t, fine_t):
     width = data[4]
     height = data[5]
     coordinate = np.zeros(2)
-
-    #for component in range(1, num_of_components):
-        #coordinate[0] = top_x[component]
-        #coordinate[1] = top_y[component]
-        #coordinate_map["Coordinate Key"].append(coordinate)
-        #coordinate_map["Total Area"].append(area)
-
-        #first_value = list(coordinate_map.items())[component][1]
-        #print(first_value)
     
-
-
-    #print("Number of Components")
-    #print(num_of_components)
-    #print("Area")
-    #print(area)
-    #print("Top X")
-    #print(top_x)
-    #print("Top Y:")
-    #print(top_y)
-    #print("Width")
-    #print(width)
-    #print("Height")
-    #print(height)
     
-
 #Parameters:
 # image - area of interest detected image
 # Return Value -
 # numLabels - number of components in the image
 # area - area of the entire image
-# Added - 11/27/2021 - Annapoorna Prabhu
 def getConnected_Area(image):
     image = np.uint8(image)
     ret,image_connected = cv2.connectedComponents(image)
