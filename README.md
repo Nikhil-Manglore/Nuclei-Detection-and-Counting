@@ -2,10 +2,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------------
 During my Fall 2021 semester I was an undergraduate student researcher under Purdue Universities' Vertically Integrated Projects. My research was based around image processing techniques and implementations. This program utilizes mathematical morphology, pre-processing methods such as gaussian nlurring, and the watershed segmentation in order to segment heavilyg clustered nuclei within images of cells.
 --------------------------------------------------------------------------------------------------------------------------------------------
-<br/>
 
-<br/>
-<br/>
 Abstract: <br/>
 Nuclei segmentation on microscopy images has been a topic of interest for over 10 years. There are multiple
 different algorithms that have been developed to target the issue. This project focuses specifically on
