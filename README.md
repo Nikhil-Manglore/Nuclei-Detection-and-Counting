@@ -3,8 +3,7 @@
 During my Fall 2021 semester I was an undergraduate student researcher under Purdue Universities' Vertically Integrated Projects. My research was based around image processing techniques and implementations. This program utilizes mathematical morphology, pre-processing methods such as gaussian nlurring, and the watershed segmentation in order to segment heavilyg clustered nuclei within images of cells.
 --------------------------------------------------------------------------------------------------------------------------------------------
 <br/>
-Author(s):<br/>
-Tikhon Pachin, Nikhil Manglore, Annapoorna Prabhu, Sheila Lin, Aubrey Gatewood, Niha Narra, Lydia Hanna
+
 <br/>
 <br/>
 Abstract: <br/>
